@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> formulario </title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+/>
+</head>
+
+<body>
+		<main>
+	<header>
+		<a href="index.html"><img class="logo" src="img/astrolunar.png"> </a>
+			<div class="menu"> 
+		<ul class="botonera_horizontal">
+	<li><a href="formulario.html">Traslados</a></li>
+	<li><a href="#">Vuelos</a></li>
+	<li><a href="#">Ofertas</a></li>
+	<li><b href="#"><img class src="img/perfil.png"> </b></li>
+</ul> </div>
+
+	
+	<nav> 	
+		<p class="p4"> Formulario </p>
+	</nav>
+	</header>
+
+<section>
+	<article id="cuatro">
+
+<form action="mailto:isabella.delvecchio@gmail.com" method="post"
+<label> Nombre y Apellido </label> <br>
+<input type="text" name="nombre" class="largo"><br>
+
+<label> Correo electrónico </label> <br>
+<input type="text" name="correo" class="largo"> <br>
+
+<label for="phone">Número de Teléfono:</label>
+<input type="tel" id="phone" name="phone" class="largo">
+<br>
+
+<br>
+
+<label> Número de pasajeros </label> <br>
+<input type="radio" name="choco" value="">
+<label> 1 </label> <br>
+
+<input type="radio" name="choco" value="">
+<label> 2 </label> <br>
+
+<input type="radio" name="choco" value="">
+<label> 3 </label> <br>
+
+<input type="radio" name="choco" value="">
+<label> 4 o más </label> <br>
+
+<br> 
+
+<label for="date">Fecha del viaje</label> <br>
+<label for="date">Desde</label>
+<input type="date" id="date" name="date" value=""><br>
+
+<label for="date"> Hasta</label>           
+<input type="date" id="date" name="date" value=""><br>
+
+ <br>
+
+
+<label> Tipo de vuelo </label> <br>
+<select id="so" name="so">
+	<option value="" selected="select"> selecciona </option>
+	<option value="windows"> Ida y vuelta </option>
+	<option value="mac"> Ida y vuelta EXPRESS </option>
+	<option value="linux"> Estadia inclusive </option>
+</select> <br>
+
+<br>
+
+<label> Clase </label> <br>
+<input type="radio" name="clase" value="">
+<label> Económica </label> <br>
+
+<input type="radio" name="clase" value="">
+<label> Bussines </label> <br>
+
+<input type="radio" name="clase" value="">
+<label> Primera clase </label> <br>
+
+<br> 
+
+<br>
+<label> Dejanos tus dudas! </label> <br> 
+<textarea class="caja"> </textarea>
+
+<br>
+
+<input type="checkbox" name="acepto">
+<label> Acepto términos y condiciones </label>	<br>
+<br>
+
+<input type="submit" name="enviar" value="Enviar" class="boton">
+
+</article>
+</form>
+
+
+<section>
+	<article id="cinco">
+		<div class="f-carousel" id="myCarousel">
+   <div class="f-carousel__slide"> <img src="img/vectoruno.png" class="pocion">
+  </div>
+  <div class="f-carousel__slide">
+  	<img src="img/vectordos.jpg" class="slider">
+  </div>
+<div class="f-carousel__slide">
+  	<img src="img/vectortres.png" class="slider">
+  </div>
+</div>
+
+<script>
+	const container = document.getElementById("myCarousel");
+const options = { infinite: false };
+
+new Carousel(container, options);
+
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+    <script>
+      new Carousel(document.getElementById("myCarousel"), {
+        Autoplay : {
+          timeout : 6000
+        }
+      }, {
+        Autoplay
+      });
+    </script>
+
+</section> 
+
+<footer> 
+<article id="izq"> <h3 class="p3"><a href="partefinal.html"> Isabella del Vecchio</h3> </article>
+<article id="der"> <img src="img/mail-wpp-ig.png"> </article>
+
+</footer>
+
+</body>
+</main>
+</html>
